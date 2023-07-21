@@ -18,13 +18,43 @@
         <div class="add-pic">
             <div class="container">
                 <form>
-                    <input type="url" required placeholder="URL da imagem">
+                    <input type="url" id="nova-imagem" required placeholder="URL da imagem">
                     <button class="add" type="submit">Adicionar</button>
                     <button class="cancel" type="reset">Cancelar</button>
                 </form>
             </div>
         </div>
     </header>
+    <main>
+        <div class="container">
+            <ul>
+                <li>
+                    <img src="./media/foto1.jpg" alt="Pintura de um gato">
+                    <div class="overlay-image-link">
+                        <a href="./media/foto1.jpg" title="Ver imagem em tamanho real" target="_blank">
+                            Ver imagem em tamanho real
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <img src="./media/foto2.jpg" alt="Pintura de uma ave">
+                    <div class="overlay-image-link">
+                        <a href="./media/foto1.jpg" title="Ver imagem em tamanho real" target="_blank">
+                            Ver imagem em tamanho real
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <img src="./media/foto3.jpg" alt="Pintura de cachorros">
+                    <div class="overlay-image-link">
+                        <a href="./media/foto1.jpg" title="Ver imagem em tamanho real" target="_blank">
+                            Ver imagem em tamanho real
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </main>
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
     <script src="./script.js"></script>
 </body>
