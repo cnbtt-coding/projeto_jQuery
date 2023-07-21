@@ -16,13 +16,13 @@ $(document).ready(function() {
         event.preventDefault();
         const urlNovaImagem = $('#nova-imagem').val();
         const novoItem = $('<li></li>');
-        $(`img src="${urlNovaImagem}" />`).appendTo(novoItem);
+        $(`<img src="${urlNovaImagem}" />`).appendTo(novoItem);
         $(`
             <div class="overlay-image-link">
-                <a href = "${urlNovaImagem}" target="_blank" title="Ver imagem em tamanho real"
+                <a href="${urlNovaImagem}" target="_blank" title="Ver imagem em tamanho real">
                     Ver imagem em tamanho real
                 </a>
-        </div>
+            </div>
         `).appendTo(novoItem);
         $(novoItem).appendTo('ul');
     }) /*
