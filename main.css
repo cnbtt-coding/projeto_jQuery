@@ -119,6 +119,58 @@ header {
     background-color: rgb(221, 145, 145);
 }
 
+/* Main content style */
+
+main .container {
+    padding: 24px 0px;
+}
+
+main .container ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .container li {
+    max-width: 30%;
+    list-style: none;
+    position: relative;
+    margin: 18px 12px;
+}
+
+main .container li img {
+    width: 100%;
+    border-radius: 10px;
+    height: 280px;
+}
+
+.overlay-image-link {
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 50%);
+    padding: 8px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    opacity: 0;
+    transition: all .55s ease;
+}
+
+.container ul li:hover .overlay-image-link {
+    opacity: 1;
+}
+
+.overlay-image-link a {
+    text-decoration: none;
+    color: white;
+}
+
+.overlay-image-link a:hover {
+    border-bottom: 1px solid #fff;
+}
+
 
 
 
