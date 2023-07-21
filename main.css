@@ -122,13 +122,15 @@ header {
 /* Main content style */
 
 main .container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 64px;
     padding: 24px 0px;
 }
 
 main .container ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     align-items: center;
 }
 
